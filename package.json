@@ -8,6 +8,10 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VNBot-Developers/facebook-ranking-tool.git"
+  },
   "dependencies": {
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
