@@ -2,7 +2,7 @@
 
 A library to get ranking member in group.
 
-Very easy to install to install and use.
+Very easy to install and use.
 
 ## INSTALL
 run this command:
