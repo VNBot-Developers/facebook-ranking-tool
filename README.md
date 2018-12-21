@@ -14,7 +14,7 @@ npm install facebook-ranking-tool
 ## USE
 Create a file `app.js`:
 ```js
-const ranking_tool = require("../");
+const ranking_tool = require("facebook-ranking-tool");
 let getRankGroup = ranking_tool({
     idGroup: '<ID-GROUP>',
     token: '<YOUR_TOKEN || ADMIN_TOKEN>',
