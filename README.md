@@ -26,7 +26,8 @@ let getRankGroup = ranking_tool({
             point_per_reaction: 1,
             point_per_commented:1,
             point_per_reactioned:1
-        }
+        },
+        stat: false //For search and use data
     }
 });
 

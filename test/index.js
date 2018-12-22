@@ -1,7 +1,7 @@
 const ranking_tool = require("../");
 let getRankGroup = ranking_tool({
     idGroup: '337319126769826',
-    token: 'EAACW5Fg5N2IBAI68xLusQveAZArvtwGnX0xdKyFHS6SagO1cUC6SNtmGCD78P1diauIXbNN99mlUkAcZCwqXL9FNWYdrOCArsJqNCCIzkTsRYtPmNHXOOQc51ufZBOCzraMWXHiSc2XduAisHJUuJHZAJFIl6pZCrRNJYilQ5TsqJ8sX1h2pNM8fMhu9D6AcZD',
+    token: 'EAAA',
     option: {
         dayRank: 60,
         point: {
@@ -12,4 +12,4 @@ let getRankGroup = ranking_tool({
     }
 });
 
-getRankGroup.then(console.log)
+getRankGroup.then(console.log).catch(console.log)

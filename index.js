@@ -84,5 +84,5 @@ module.exports = async function({ idGroup, token, option }) {
 
     await pagingFeed(defaultFeedOption)
 
-    return { name, privacy, rank: rank.render() }
+    return { name, privacy, rank: rank.render(option.stat) }
 }

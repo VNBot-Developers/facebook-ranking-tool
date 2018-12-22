@@ -71,7 +71,8 @@ module.exports = class Ranking {
     }
 
 
-    render() {
+    render(stat) {
+        if(stat == true) return this.user;
         return Object.values(this.user).sort((a, b) => b.point - a.point);
     }
 }
